@@ -1,0 +1,11 @@
+<svg width="800" height="200" viewBox="0 0 800 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="200" rx="10" fill="#1a1a1a"/>
+  <path d="M50 150 Q 150 50 250 150 T 450 150 T 650 150" stroke="#00d1ff" stroke-width="4" fill="none" opacity="0.6"/>
+  <path d="M50 150 Q 150 70 250 130 T 450 110 T 650 140" stroke="#ff005c" stroke-width="3" fill="none" stroke-dasharray="8 4"/>
+  <circle cx="250" cy="130" r="6" fill="#00d1ff"/>
+  <circle cx="450" cy="110" r="6" fill="#00d1ff"/>
+  <circle cx="650" cy="140" r="6" fill="#00d1ff"/>
+  <text x="400" y="80" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="white" text-anchor="middle">AWESOME MPC</text>
+  <text x="400" y="110" font-family="Arial, sans-serif" font-size="16" fill="#cccccc" text-anchor="middle">Model Predictive Control for Robotics &amp; Autonomous Systems</text>
+  <rect x="50" y="150" width="700" height="2" fill="#333333"/>
+</svg>

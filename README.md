@@ -1,115 +1,122 @@
-# Awesome-Model-Predictive-Control
-## Top Model Predictive Control (MPC) Tools for Robotics Ecosystem
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome MPC Banner" width="800">
+</p>
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-*Focused on Model Predictive Control for Robotics, Locomotion & Autonomous Systems*  
-**Last updated: March 2026**
+<h1 align="center">🚀 Awesome Model Predictive Control (MPC)</h1>
 
-This repository tracks notable **platforms** and **open-source projects** for **Model Predictive Control (MPC)** in robotics. These tools solve optimal control problems in real-time, enabling dynamic locomotion, manipulation, trajectory optimization, and constraint handling for legged robots, drones, arms, and autonomous vehicles.
+<p align="center">
+  <strong>A curated list of state-of-the-art Model Predictive Control (MPC) tools, solvers, and frameworks for Robotics, Autonomous Systems, and Industrial Automation.</strong>
+</p>
 
-**Examples** include zhm-real/MotionPlanning, NikolasEnt/Model-Predictive-Control, TinyMPC, CasADi, acados, and various distributed MPC toolboxes (the category leaders). Tools listed here emphasize **real-time performance**, constraint handling, nonlinear optimization, and integration with modern simulators.
-
-**Open-source emphasis**: This section is heavily expanded with every major active project for self-hosting, local development, real-time deployment, and research reproducibility — ideal for robotics researchers, engineers, and developers building advanced control systems.
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-## Table of Contents
-- [Proprietary / Commercial Tools](#saas-products)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
-
-## Proprietary / Commercial Tools
-
-### Comparison of Commercial MPC Solutions
-
-| Product | Vendor | Company Size (Est. Revenue/Valuation) | Pricing (Commercial) | Free Tier / Trial Limit |
-| :--- | :--- | :--- | :--- | :--- |
-| **[Simatic PCS 7 MPC](https://www.siemens.com/global/en/products/automation/process-automation/distributed-control-system-simatic-pcs-7.html)** | Siemens | ~$84 Billion (Revenue) | €5,000+ (DCS Bundle) | No free tier; Demo/Quote only. |
-| **[B&R Automation MPC](https://www.br-automation.com/en/products/software/automation-studio/)** | B&R (ABB) | ~$33 Billion (Revenue) | Subscription / Perpetual | **90-day fully functional trial.** |
-| **[Pavilion8 / PavilionX](https://www.rockwellautomation.com/en-us/products/software/factorytalk/pavilion8.html)** | Rockwell | ~$8.3 Billion (Revenue) | ~$169,000+ (Enterprise) | No free tier; Demo/Quote only. |
-| **[MATLAB MPC Toolbox](https://mathworks.com/products/model-predictive-control.html)** | MathWorks | ~$1.5 Billion (Revenue) | ~$1,180/year (Add-on) | 30-day full-featured free trial. |
-| **[TwinCAT MPC](https://www.beckhoff.com/en-en/products/automation/twincat/tfxxxx-twincat-3-functions/tf5xxx-twincat-3-kinematics-and-robotics/tf5110.html)** | Beckhoff | ~$1.2 Billion (Revenue) | Hardware-dependent (TF511x) | **7-day renewable trial** (Indefinite testing). |
-| **[dSPACE MPC Tools](https://dspace.com/)** | dSPACE | ~$480 Million (Revenue) | Custom Quote | No free tier; Academic discounts available. |
-| **[FORCES Pro](https://www.embotech.com/products/forces-pro/overview/)** | Embotech | ~$200 Million (Valuation) | Subscription (Custom Quote) | **Free for Academic use** (Full features). |
-
-### Core MPC Solutions Overview
-
-- **MATLAB MPC Toolbox**  
-  Industry-standard commercial toolbox with powerful design, simulation, and deployment capabilities. Widely used in academia and automotive/aerospace prototyping.
-
-- **FORCES Pro (Embotech)**  
-  High-performance embedded optimization solver that generates library-free C-code. Specifically optimized for fast real-time MPC in robotics and autonomous vehicles.
-
-- **dSPACE MPC Tools**  
-  Professional rapid control prototyping and MPC development environment. Often bundled with high-end HIL (Hardware-in-the-Loop) systems for automotive testing.
-
-- **TwinCAT MPC (Beckhoff)**  
-  Integrated MPC functionality within the TwinCAT 3 environment, allowing seamless control of industrial robot arms and high-speed machinery.
-
-**Other notable mentions**: Siemens, Rockwell Automation, and various vendor-specific MPC modules for large-scale process optimization.
-
-## Open-Source GitHub Projects
-
-### Dedicated Model Predictive Control Projects
-
-- **[zhm-real/MotionPlanning](https://github.com/zhm-real/MotionPlanning)** [![GitHub stars](https://img.shields.io/github/stars/zhm-real/MotionPlanning?style=social&color=white)](https://github.com/zhm-real/MotionPlanning/stargazers)  
-  Open-source motion planning and MPC toolbox focused on robotics applications with practical implementations.
-
-- **[CasADi](https://github.com/casadi/casadi)** [![GitHub stars](https://img.shields.io/github/stars/casadi/casadi?style=social&color=white)](https://github.com/casadi/casadi/stargazers)  
-  Leading open-source symbolic framework for nonlinear optimization and optimal control. Widely used as the foundation for real-time MPC in robotics.
-
-- **[OSQP](https://github.com/osqp/osqp)** [![GitHub stars](https://img.shields.io/github/stars/osqp/osqp?style=social&color=white)](https://github.com/osqp/osqp/stargazers)  
-  Operator Splitting Quadratic Program solver — fast, reliable, and widely used in robotics MPC.
-
-- **[acados](https://github.com/acados/acados)** [![GitHub stars](https://img.shields.io/github/stars/acados/acados?style=social&color=white)](https://github.com/acados/acados/stargazers)  
-  High-performance, open-source framework for fast embedded optimization and MPC. Optimized for real-time applications on embedded hardware.
-
-- **[TinyMPC](https://github.com/TinyMPC/TinyMPC)** [![GitHub stars](https://img.shields.io/github/stars/TinyMPC/TinyMPC?style=social&color=white)](https://github.com/TinyMPC/TinyMPC/stargazers)  
-  Lightweight, high-speed MPC solver designed for resource-constrained robotic systems and embedded deployment.
-
-- **[qpOASES](https://github.com/coin-or/qpOASES)** [![GitHub stars](https://img.shields.io/github/stars/coin-or/qpOASES?style=social&color=white)](https://github.com/coin-or/qpOASES/stargazers)  
-  Reliable open-source quadratic programming solver extensively used in real-time MPC implementations.
-
-- **[NikolasEnt/Model-Predictive-Control](https://github.com/NikolasEnt/Model-Predictive-Control)** [![GitHub stars](https://img.shields.io/github/stars/NikolasEnt/Model-Predictive-Control?style=social&color=white)](https://github.com/NikolasEnt/Model-Predictive-Control/stargazers)  
-  Comprehensive open-source MPC library with clear examples for robotics and control systems.
-
-- **[Crocoddyl](https://github.com/loco-3d/crocoddyl)** [![GitHub stars](https://img.shields.io/github/stars/loco-3d/crocoddyl?style=social&color=white)](https://github.com/loco-3d/crocoddyl/stargazers)  
-  Optimal control library with excellent support for whole-body MPC and contact-rich robotics scenarios.
-
-- **[sympy-to-numba/Model-Predictive-Controller](https://github.com/sympy-to-numba/Model-Predictive-Controller)** [![GitHub stars](https://img.shields.io/github/stars/sympy-to-numba/Model-Predictive-Controller?style=social&color=white)](https://github.com/sympy-to-numba/Model-Predictive-Controller/stargazers)  
-  Open-source tool that converts symbolic MPC formulations (SymPy) to high-speed numerical code (Numba).
-
-- **[dmpc - Distributed Model Predictive Control Toolbox](https://github.com/search?q=dmpc)**  
-  Open-source toolbox for distributed MPC, ideal for multi-robot and large-scale systems.
-
-### Additional Strong Open-Source Options
-
-- **[Pinocchio](https://github.com/stack-of-tasks/pinocchio)** [![GitHub stars](https://img.shields.io/github/stars/stack-of-tasks/pinocchio?style=social&color=white)](https://github.com/stack-of-tasks/pinocchio/stargazers) — Rigid body dynamics library used as backend for many MPC stacks.
-- **[Pink](https://github.com/stack-of-tasks/pink)** [![GitHub stars](https://img.shields.io/github/stars/stack-of-tasks/pink?style=social&color=white)](https://github.com/stack-of-tasks/pink/stargazers) — Inverse kinematics and whole-body control with MPC integration.
-- **[RAI](https://github.com/search?q=robot+mpc)** — Various robotics MPC repositories built on CasADi and acados.
-- **[Dynamic Matrix Control & EPFC Toolboxes](https://github.com/search?q=dmc+epfc)** — Open-source implementations of classic and advanced MPC algorithms.
-- **[Learnable Fuzzy Gain-Scheduled PID + MPC Hybrids](https://github.com/search?q=fuzzy+mpc)** — Community projects combining classical and learning-based control.
-- **Difference of Convex Neural Network Dynamic Approximation** implementations for advanced nonlinear MPC.
-
-**Frameworks for building custom MPC systems**: Combine **CasADi** + **acados** + **Pinocchio** with **ROS2** and simulators (MuJoCo, Isaac Gym) for full-stack robotic MPC development.
-
-## How to Contribute
-
-1. Fork the repo.
-2. Add/edit entries in `README.md` (follow existing format).
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-4. Submit PR with a short explanation.
-
-Star the repo if you find it useful!
-
-## Disclaimer
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-- MPC performance on real robots requires careful tuning, safety layers, and extensive simulation testing before hardware deployment.
-- Many solvers are sensitive to numerical conditioning — always validate stability.
+<p align="center">
+  <a href="https://github.com/v88/Awesome-Model-Predictive-Control/stargazers"><img src="https://img.shields.io/github/stars/v88/Awesome-Model-Predictive-Control?style=for-the-badge&color=white" alt="Stars"></a>
+  <a href="https://github.com/v88/Awesome-Model-Predictive-Control/network/members"><img src="https://img.shields.io/github/forks/v88/Awesome-Model-Predictive-Control?style=for-the-badge&color=white" alt="Forks"></a>
+  <a href="https://github.com/v88/Awesome-Model-Predictive-Control/issues"><img src="https://img.shields.io/github/issues/v88/Awesome-Model-Predictive-Control?style=for-the-badge&color=white" alt="Issues"></a>
+  <img src="https://img.shields.io/badge/Maintenance-Active-green?style=for-the-badge" alt="Maintenance">
+  <img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="License">
+</p>
 
 ---
 
-**Made for robotics researchers, control engineers, and humanoid/autonomous system developers.**  
-Let's make advanced Model Predictive Control more accessible, efficient, and open.
+## 📖 Overview
+
+This repository is a comprehensive index of **Model Predictive Control (MPC)** resources. Whether you are working on **humanoid locomotion**, **autonomous vehicle trajectory planning**, or **industrial process control**, this list tracks the most reliable and high-performance tools in the ecosystem.
+
+### Why MPC? 🧠
+Model Predictive Control is the gold standard for handling complex constraints and multivariable dynamics in real-time. It allows robots to "look ahead" and optimize their behavior based on a predictive model of the environment.
+
+---
+
+## 📑 Table of Contents
+- [🏢 Proprietary / Commercial Tools](#proprietary--commercial-tools)
+- [🛠️ Open-Source GitHub Projects](#open-source-github-projects)
+- [🤝 How to Contribute](#how-to-contribute)
+- [⚠️ Disclaimer](#disclaimer)
+
+---
+
+## 🏢 Proprietary / Commercial Tools
+
+### Comparison of Commercial MPC Solutions 📊
+
+| Product | Vendor | Company Size (Est. Revenue) | Pricing (Commercial) | Free Tier / Trial Limit |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Simatic PCS 7 MPC](https://www.siemens.com/global/en/products/automation/process-automation/distributed-control-system-simatic-pcs-7.html)** | Siemens | ~$84 Billion | €5,000+ (DCS Bundle) | No free tier; Demo/Quote only. |
+| **[B&R Automation MPC](https://www.br-automation.com/en/products/software/automation-studio/)** | B&R (ABB) | ~$33 Billion | Subscription / Perpetual | **90-day fully functional trial.** |
+| **[Pavilion8 / PavilionX](https://www.rockwellautomation.com/en-us/products/software/factorytalk/pavilion8.html)** | Rockwell | ~$8.3 Billion | ~$169,000+ | No free tier; Demo/Quote only. |
+| **[MATLAB MPC Toolbox](https://mathworks.com/products/model-predictive-control.html)** | MathWorks | ~$1.5 Billion | ~$1,180/year | 30-day full-featured trial. |
+| **[TwinCAT MPC](https://www.beckhoff.com/en-en/products/automation/twincat/tfxxxx-twincat-3-functions/tf5xxx-twincat-3-kinematics-and-robotics/tf5110.html)** | Beckhoff | ~$1.2 Billion | Hardware-dependent | **7-day renewable trial.** |
+| **[dSPACE MPC Tools](https://dspace.com/)** | dSPACE | ~$480 Million | Custom Quote | No free tier; Academic discounts. |
+| **[FORCES Pro](https://www.embotech.com/products/forces-pro/overview/)** | Embotech | ~$200M (Val) | Subscription | **Free for Academic use.** |
+
+### Core MPC Solutions Overview 🔍
+
+- **MATLAB MPC Toolbox**  
+  Industry-standard commercial toolbox for design and simulation. 🏎️ *Best for rapid prototyping.*
+- **FORCES Pro (Embotech)**  
+  High-performance embedded optimization. ⚡ *Best for real-time robotic deployment.*
+- **dSPACE MPC Tools**  
+  Professional rapid control prototyping. 🛠️ *Best for Automotive HIL testing.*
+- **TwinCAT MPC (Beckhoff)**  
+  Industrial PC-based control. 🏗️ *Best for high-speed manufacturing.*
+
+---
+
+## 🛠️ Open-Source GitHub Projects
+
+### Dedicated Model Predictive Control Projects 🏎️
+
+- **[zhm-real/MotionPlanning](https://github.com/zhm-real/MotionPlanning)** [![GitHub stars](https://img.shields.io/github/stars/zhm-real/MotionPlanning?style=social&color=white)](https://github.com/zhm-real/MotionPlanning/stargazers)  
+  Motion planning & MPC toolbox focused on practical robotics implementations.
+
+- **[CasADi](https://github.com/casadi/casadi)** [![GitHub stars](https://img.shields.io/github/stars/casadi/casadi?style=social&color=white)](https://github.com/casadi/casadi/stargazers)  
+  The leading symbolic framework for nonlinear optimization. 🦴 *The backbone of modern MPC.*
+
+- **[OSQP](https://github.com/osqp/osqp)** [![GitHub stars](https://img.shields.io/github/stars/osqp/osqp?style=social&color=white)](https://github.com/osqp/osqp/stargazers)  
+  Fast Operator Splitting Quadratic Program solver. ⚡ *Ubiquitous in embedded robotics.*
+
+- **[acados](https://github.com/acados/acados)** [![GitHub stars](https://img.shields.io/github/stars/acados/acados?style=social&color=white)](https://github.com/acados/acados/stargazers)  
+  High-performance solver for fast embedded optimization. 🚀 *The choice for real-time performance.*
+
+- **[TinyMPC](https://github.com/TinyMPC/TinyMPC)** [![GitHub stars](https://img.shields.io/github/stars/TinyMPC/TinyMPC?style=social&color=white)](https://github.com/TinyMPC/TinyMPC/stargazers)  
+  Lightweight MPC for resource-constrained robotic systems. 🔋 *Perfect for micro-drones.*
+
+- **[qpOASES](https://github.com/coin-or/qpOASES)** [![GitHub stars](https://img.shields.io/github/stars/coin-or/qpOASES?style=social&color=white)](https://github.com/coin-or/qpOASES/stargazers)  
+  Reliable online active set strategy for QP. 🛡️ *Stable and field-proven.*
+
+- **[NikolasEnt/Model-Predictive-Control](https://github.com/NikolasEnt/Model-Predictive-Control)** [![GitHub stars](https://img.shields.io/github/stars/NikolasEnt/Model-Predictive-Control?style=social&color=white)](https://github.com/NikolasEnt/Model-Predictive-Control/stargazers)  
+  Comprehensive library with clear examples for robotics. 📚 *Great for learning MPC basics.*
+
+- **[Crocoddyl](https://github.com/loco-3d/crocoddyl)** [![GitHub stars](https://img.shields.io/github/stars/loco-3d/crocoddyl?style=social&color=white)](https://github.com/loco-3d/crocoddyl/stargazers)  
+  Optimal control library for whole-body MPC. 🤖 *Specialized for legged locomotion.*
+
+- **[sympy-to-numba/Model-Predictive-Controller](https://github.com/sympy-to-numba/Model-Predictive-Controller)** [![GitHub stars](https://img.shields.io/github/stars/sympy-to-numba/Model-Predictive-Controller?style=social&color=white)](https://github.com/sympy-to-numba/Model-Predictive-Controller/stargazers)  
+  Symbolic MPC formulations (SymPy) to high-speed Numba code. 🐍 *Python-friendly performance.*
+
+### Additional Strong Open-Source Options 🧩
+
+- **[Pinocchio](https://github.com/stack-of-tasks/pinocchio)** [![GitHub stars](https://img.shields.io/github/stars/stack-of-tasks/pinocchio?style=social&color=white)](https://github.com/stack-of-tasks/pinocchio/stargazers) — High-speed rigid body dynamics backend.
+- **[Pink](https://github.com/stack-of-tasks/pink)** [![GitHub stars](https://img.shields.io/github/stars/stack-of-tasks/pink?style=social&color=white)](https://github.com/stack-of-tasks/pink/stargazers) — Inverse kinematics with MPC integration.
+
+---
+
+## 🤝 How to Contribute
+
+We welcome contributions! 🌟
+1. **Fork** the repository.
+2. **Add/Edit** entries (follow the table/list style).
+3. **Submit** a PR with a brief description of the tool.
+
+---
+
+## ⚠️ Disclaimer
+
+- This is a **community-curated** list. Use these tools at your own risk.
+- MPC stability on hardware depends heavily on model accuracy and solver tuning.
+- Always validate in simulation (MuJoCo, Isaac Gym, Gazebo) before hardware tests.
+
+---
+
+<p align="center">
+  <b>Built with ❤️ for the Robotics Community</b>
+</p>
