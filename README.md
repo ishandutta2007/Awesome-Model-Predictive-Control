@@ -53,40 +53,40 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ### Dedicated Model Predictive Control Projects
 
-- **[CasADi](https://github.com/casadi/casadi)**  
-  Leading open-source symbolic framework for nonlinear optimization and optimal control. Widely used as the foundation for real-time MPC in robotics.
-
-- **[acados](https://github.com/acados/acados)**  
-  High-performance, open-source framework for fast embedded optimization and MPC. Optimized for real-time applications on embedded hardware.
-
-- **[TinyMPC](https://github.com/TinyMPC/TinyMPC)**  
-  Lightweight, high-speed MPC solver designed for resource-constrained robotic systems and embedded deployment.
-
-- **[zhm-real/MotionPlanning](https://github.com/zhm-real/MotionPlanning)**  
+- **[zhm-real/MotionPlanning](https://github.com/zhm-real/MotionPlanning)** [![GitHub stars](https://img.shields.io/github/stars/zhm-real/MotionPlanning?style=social&color=white)](https://github.com/zhm-real/MotionPlanning/stargazers)  
   Open-source motion planning and MPC toolbox focused on robotics applications with practical implementations.
 
-- **[NikolasEnt/Model-Predictive-Control](https://github.com/NikolasEnt/Model-Predictive-Control)**  
+- **[CasADi](https://github.com/casadi/casadi)** [![GitHub stars](https://img.shields.io/github/stars/casadi/casadi?style=social&color=white)](https://github.com/casadi/casadi/stargazers)  
+  Leading open-source symbolic framework for nonlinear optimization and optimal control. Widely used as the foundation for real-time MPC in robotics.
+
+- **[OSQP](https://github.com/osqp/osqp)** [![GitHub stars](https://img.shields.io/github/stars/osqp/osqp?style=social&color=white)](https://github.com/osqp/osqp/stargazers)  
+  Operator Splitting Quadratic Program solver — fast, reliable, and widely used in robotics MPC.
+
+- **[acados](https://github.com/acados/acados)** [![GitHub stars](https://img.shields.io/github/stars/acados/acados?style=social&color=white)](https://github.com/acados/acados/stargazers)  
+  High-performance, open-source framework for fast embedded optimization and MPC. Optimized for real-time applications on embedded hardware.
+
+- **[TinyMPC](https://github.com/TinyMPC/TinyMPC)** [![GitHub stars](https://img.shields.io/github/stars/TinyMPC/TinyMPC?style=social&color=white)](https://github.com/TinyMPC/TinyMPC/stargazers)  
+  Lightweight, high-speed MPC solver designed for resource-constrained robotic systems and embedded deployment.
+
+- **[qpOASES](https://github.com/coin-or/qpOASES)** [![GitHub stars](https://img.shields.io/github/stars/coin-or/qpOASES?style=social&color=white)](https://github.com/coin-or/qpOASES/stargazers)  
+  Reliable open-source quadratic programming solver extensively used in real-time MPC implementations.
+
+- **[NikolasEnt/Model-Predictive-Control](https://github.com/NikolasEnt/Model-Predictive-Control)** [![GitHub stars](https://img.shields.io/github/stars/NikolasEnt/Model-Predictive-Control?style=social&color=white)](https://github.com/NikolasEnt/Model-Predictive-Control/stargazers)  
   Comprehensive open-source MPC library with clear examples for robotics and control systems.
+
+- **[Crocoddyl](https://github.com/loco-3d/crocoddyl)** [![GitHub stars](https://img.shields.io/github/stars/loco-3d/crocoddyl?style=social&color=white)](https://github.com/loco-3d/crocoddyl/stargazers)  
+  Optimal control library with excellent support for whole-body MPC and contact-rich robotics scenarios.
+
+- **[sympy-to-numba/Model-Predictive-Controller](https://github.com/sympy-to-numba/Model-Predictive-Controller)** [![GitHub stars](https://img.shields.io/github/stars/sympy-to-numba/Model-Predictive-Controller?style=social&color=white)](https://github.com/sympy-to-numba/Model-Predictive-Controller/stargazers)  
+  Open-source tool that converts symbolic MPC formulations (SymPy) to high-speed numerical code (Numba).
 
 - **[dmpc - Distributed Model Predictive Control Toolbox](https://github.com/search?q=dmpc)**  
   Open-source toolbox for distributed MPC, ideal for multi-robot and large-scale systems.
 
-- **[sympy-to-numba/Model-Predictive-Controller](https://github.com/sympy-to-numba/Model-Predictive-Controller)**  
-  Open-source tool that converts symbolic MPC formulations (SymPy) to high-speed numerical code (Numba).
-
-- **[qpOASES](https://github.com/coin-or/qpOASES)**  
-  Reliable open-source quadratic programming solver extensively used in real-time MPC implementations.
-
-- **[OSQP](https://github.com/osqp/osqp)**  
-  Operator Splitting Quadratic Program solver — fast, reliable, and widely used in robotics MPC.
-
-- **[Crocoddyl](https://github.com/loco-3d/crocoddyl)**  
-  Optimal control library with excellent support for whole-body MPC and contact-rich robotics scenarios.
-
 ### Additional Strong Open-Source Options
 
-- **[Pink](https://github.com/stack-of-tasks/pink)** — Inverse kinematics and whole-body control with MPC integration.
-- **[Pinocchio](https://github.com/stack-of-tasks/pinocchio)** — Rigid body dynamics library used as backend for many MPC stacks.
+- **[Pinocchio](https://github.com/stack-of-tasks/pinocchio)** [![GitHub stars](https://img.shields.io/github/stars/stack-of-tasks/pinocchio?style=social&color=white)](https://github.com/stack-of-tasks/pinocchio/stargazers) — Rigid body dynamics library used as backend for many MPC stacks.
+- **[Pink](https://github.com/stack-of-tasks/pink)** [![GitHub stars](https://img.shields.io/github/stars/stack-of-tasks/pink?style=social&color=white)](https://github.com/stack-of-tasks/pink/stargazers) — Inverse kinematics and whole-body control with MPC integration.
 - **[RAI](https://github.com/search?q=robot+mpc)** — Various robotics MPC repositories built on CasADi and acados.
 - **[Dynamic Matrix Control & EPFC Toolboxes](https://github.com/search?q=dmc+epfc)** — Open-source implementations of classic and advanced MPC algorithms.
 - **[Learnable Fuzzy Gain-Scheduled PID + MPC Hybrids](https://github.com/search?q=fuzzy+mpc)** — Community projects combining classical and learning-based control.
