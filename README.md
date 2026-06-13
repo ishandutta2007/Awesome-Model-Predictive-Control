@@ -9,11 +9,12 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/v88/Awesome-Model-Predictive-Control/stargazers"><img src="https://img.shields.io/github/stars/v88/Awesome-Model-Predictive-Control?style=for-the-badge&color=white" alt="Stars"></a>
-  <a href="https://github.com/v88/Awesome-Model-Predictive-Control/network/members"><img src="https://img.shields.io/github/forks/v88/Awesome-Model-Predictive-Control?style=for-the-badge&color=white" alt="Forks"></a>
-  <a href="https://github.com/v88/Awesome-Model-Predictive-Control/issues"><img src="https://img.shields.io/github/issues/v88/Awesome-Model-Predictive-Control?style=for-the-badge&color=white" alt="Issues"></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Model-Predictive-Control/stargazers"><img src="https://img.shields.io/github/stars/v88/Awesome-Model-Predictive-Control?style=for-the-badge&color=white" alt="Stars"></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Model-Predictive-Control/network/members"><img src="https://img.shields.io/github/forks/v88/Awesome-Model-Predictive-Control?style=for-the-badge&color=white" alt="Forks"></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Model-Predictive-Control/issues"><img src="https://img.shields.io/github/issues/v88/Awesome-Model-Predictive-Control?style=for-the-badge&color=white" alt="Issues"></a>
   <img src="https://img.shields.io/badge/Maintenance-Active-green?style=for-the-badge" alt="Maintenance">
   <img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="License">
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow&style=for-the-badge" /></a>
 </p>
 
 ---
