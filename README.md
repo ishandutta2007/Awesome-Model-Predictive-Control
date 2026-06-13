@@ -21,15 +21,33 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Proprietary / Commercial Tools
 
-### Core MPC Solutions
+### Comparison of Commercial MPC Solutions
 
-- **[MATLAB MPC Toolbox](https://mathworks.com/products/model-predictive-control.html)**  
-  Industry-standard commercial toolbox with powerful design, simulation, and deployment capabilities.
+| Product | Vendor | Pricing (Commercial) | Free Tier / Trial Limit |
+| :--- | :--- | :--- | :--- |
+| **[MATLAB MPC Toolbox](https://mathworks.com/products/model-predictive-control.html)** | MathWorks | ~$1,180/year (Add-on) | 30-day full-featured free trial. |
+| **[FORCES Pro](https://www.embotech.com/products/forces-pro/overview/)** | Embotech | Subscription (Custom Quote) | **Free for Academic use** (Full features). |
+| **[TwinCAT MPC](https://www.beckhoff.com/en-en/products/automation/twincat/tfxxxx-twincat-3-functions/tf5xxx-twincat-3-kinematics-and-robotics/tf5110.html)** | Beckhoff | Hardware-dependent (TF511x) | **7-day renewable trial** (Indefinite testing). |
+| **[B&R Automation MPC](https://www.br-automation.com/en/products/software/automation-studio/)** | B&R | Subscription / Perpetual | **90-day fully functional trial.** |
+| **[dSPACE MPC Tools](https://dspace.com/)** | dSPACE | Custom Quote | No free tier; Academic discounts available. |
+| **[Pavilion8 / PavilionX](https://www.rockwellautomation.com/en-us/products/software/factorytalk/pavilion8.html)** | Rockwell | ~$169,000+ (Enterprise) | No free tier; Demo/Quote only. |
+| **[Simatic PCS 7 MPC](https://www.siemens.com/global/en/products/automation/process-automation/distributed-control-system-simatic-pcs-7.html)** | Siemens | €5,000+ (DCS Bundle) | No free tier; Demo/Quote only. |
 
-- **[dSPACE MPC Tools](https://dspace.com/)**  
-  Professional rapid control prototyping and MPC development environment used in automotive and robotics.
+### Core MPC Solutions Overview
 
-**Other notable mentions**: Siemens, Rockwell Automation, and various vendor-specific MPC modules.
+- **MATLAB MPC Toolbox**  
+  Industry-standard commercial toolbox with powerful design, simulation, and deployment capabilities. Widely used in academia and automotive/aerospace prototyping.
+
+- **FORCES Pro (Embotech)**  
+  High-performance embedded optimization solver that generates library-free C-code. Specifically optimized for fast real-time MPC in robotics and autonomous vehicles.
+
+- **dSPACE MPC Tools**  
+  Professional rapid control prototyping and MPC development environment. Often bundled with high-end HIL (Hardware-in-the-Loop) systems for automotive testing.
+
+- **TwinCAT MPC (Beckhoff)**  
+  Integrated MPC functionality within the TwinCAT 3 environment, allowing seamless control of industrial robot arms and high-speed machinery.
+
+**Other notable mentions**: Siemens, Rockwell Automation, and various vendor-specific MPC modules for large-scale process optimization.
 
 ## Open-Source GitHub Projects
 
